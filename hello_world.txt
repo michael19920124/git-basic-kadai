@@ -1,2 +1,14 @@
-Hello, world!
-こんにちは、世界！
+PS C:\Users\TEST\git_challenge> echo "hello, world!" >> hello_world.txt
+PS C:\Users\TEST\git_challenge> git add .
+PS C:\Users\TEST\git_challenge> git commit -m "hello_world.txtを追加"
+[main 6ea0973] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\TEST\git_challenge> echo "こんにちは、世界！" >> .\hello_world.txt
+PS C:\Users\TEST\git_challenge> git add .
+PS C:\Users\TEST\git_challenge> git commit -m "日本語訳を追記"
+[main 472ce84] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\TEST\git_challenge> git log --oneline
+472ce84 (HEAD -> main) 日本語訳を追記
+6ea0973 hello_world.txtを追加
+PS C:\Users\TEST\git_challenge> 
